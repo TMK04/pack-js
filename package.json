@@ -1,0 +1,27 @@
+{
+  "name": "pack-js",
+  "displayName": "Pack JS",
+  "description": "VSCode JavaScript Extension Pack",
+  "version": "1.0.0",
+  "publisher": "TMK04",
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "dbaeumer.vscode-eslint",
+    "rohit-gohri.format-code-action",
+    "xabikos.JavaScriptSnippets",
+    "ms-vscode.vscode-typescript-next",
+    "akamud.vscode-javascript-snippet-pack",
+    "esbenp.prettier-vscode",
+    "YoavBls.pretty-ts-errors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TMK04/pack-js.git"
+  }
+}
